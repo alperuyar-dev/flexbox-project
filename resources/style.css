@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+
+}
+
+h2 {
+    margin: 30px;
+    font-size: 3rem;
+}
+
+p {
+
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+header img {
+    width: 100px;
+}
+
+.site-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+header ul>li a {
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url("./img/lasse-jensen-fSSO5U_iwzk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-section article {
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+    background-color: white;
+    opacity: 0.9;
+
+}
+
+.hero-section article h2 {
+    margin: 30px;
+    font-size: 3rem;
+}
+
+.hero-section article p {
+    margin: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+/*automobile section*/
+
+
+.automobile-models {
+    margin: 5rem 0;
+    text-align: center;
+
+}
+
+.automobile-models h2 {
+    margin: 30px;
+    font-size: 3rem;
+}
+
+.automobile-models p {
+    margin: 30px;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.flex-wrap-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.automobile-models figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 1rem;
+
+}
+
+.automobile-models figure figcaption {
+    font-size: 1.5rem;
+
+
+}
+
+.automobile-models figure img {
+    width: 20rem;
+    height: auto;
+}
+
+/*Team Section*/
+
+.team-section {
+    text-align: center;
+}
+
+.team-container {
+    background: rgba(0, 0, 0, 0.516) url("./img/jason-leung-iVBcIO8FXjQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -12rem;
+    height: 33rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-blend-mode: darken;
+
+}
+
+.team-container figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.team-container figure img {
+    width: 12rem;
+}
+
+.team-container figure h3 {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.team-container figure p {
+    font-size: 2rem;
+    color: aliceblue;
+    max-width: max-content
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer h4 {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1.25rem;
+}
